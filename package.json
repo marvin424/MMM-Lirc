@@ -1,0 +1,25 @@
+{
+  "name": "mmm-lirc",
+  "version": "1.0.0",
+  "description": "MagicMirror module to send notifications triggered by IR remote control",
+  "main": "MMM-Lirc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marvin424/MMM-Lirc.git"
+  },
+  "keywords": [
+    "IR"
+  ],
+  "author": "marvin424",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marvin424/MMM-Lirc/issues"
+  },
+  "homepage": "https://github.com/marvin424/MMM-Lirc#readme",
+  "dependencies": {
+    "python-shell": "^1.0.8"
+  }
+}

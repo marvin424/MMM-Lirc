@@ -1,0 +1,267 @@
+#  HIDE_EYECANDY
+#  SHOW_EYECANDY
+
+#newsfeed 
+#  ARTICLE_NEXT
+#  ARTICLE_PREVIOUS
+
+# MMM-news
+#  NEWS_NEXT
+#  NEWS_PREVIOUS
+#  NEWS_DETAIL
+#  NEWS_DETAIL_CLOSE
+#  NEWS_DETAIL_SCROLLDOWN
+#  NEWS_DETAIL_SCROLLUP
+
+begin
+    prog   = MMM-LIRC
+    button = KEY_POWER
+	config = {}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = KEY_MENU
+	config = {}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = KEY_MUTE
+	config = {}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = tvav
+	config = {}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = KEY_CHANNELDOWN
+	config = {}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = KEY_CHANNELUP
+	config = {}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = KEY_VOLUMEDOWN
+	config = {"Notification": "PAGE_DECREMENT", "payload": 1}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = KEY_VOLUMEUP
+	config = {"Notification": "PAGE_INCREMENT", "payload": 1}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = KEY_F
+	config = {}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = KEY_N
+	config = {}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = timer
+	config = {}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = KEY_1
+	config = {"Notification": "PAGE_CHANGED", "payload": 0}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = KEY_2
+	config = {"Notification": "PAGE_CHANGED", "payload": 1}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = KEY_3
+	config = {"Notification": "PAGE_CHANGED", "payload": 2}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = KEY_4
+	config = {"Notification": "PAGE_CHANGED", "payload": 3}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = KEY_5
+	config = {"Notification": "PAGE_CHANGED", "payload": 4}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = KEY_6
+	config = {}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = KEY_7
+	config = {}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = KEY_8
+	config = {}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = KEY_9
+	config = {}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = KEY_C
+	config = {}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = KEY_0
+	config = {}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = KEY_102ND
+	config = {}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = KEY_RED
+	config = {}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = KEY_GREEN
+	config = {}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = KEY_YELLOW
+	config = {}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = KEY_BLUE
+	config = {}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = tvtext
+	config = {}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = index
+	config = {}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = hold
+	config = {}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = timetext
+	config = {}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = reveal
+	config = {}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = ftb
+	config = {}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = vcrpower
+	config = {}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = KEY_PLAY
+	config = {"Notification": "SHOW_COCKTAILS"}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = KEY_PLAYPAUSE
+	config = {}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = KEY_REWIND
+	config = {}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = KEY_STOP
+	config = {"Notification": "HIDE_COCKTAILS"}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = KEY_FASTFORWARD
+	config = {"Notification": "NEXT_COCKTAIL"}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = KEY_RECORD
+	config = {}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = vcrprogdown
+	config = {}
+    repeat = 0
+end
+begin
+    prog   = MMM-LIRC
+    button = vcrprogup
+	config = {}
+    repeat = 0
+end
