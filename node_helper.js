@@ -30,6 +30,7 @@ module.exports = NodeHelper.create(
 			this.shell.on('close', () =>
 			{
 				console.log('[MMM-LIRC] Python script is terminated.');
+				// need to restart
 			});
 		}
 	}
