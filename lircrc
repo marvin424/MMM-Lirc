@@ -16,252 +16,252 @@
 begin
     prog   = MMM-LIRC
     button = KEY_POWER
-	config = {}
+	config = [{"Notification": "PAGE_DECREMENT", "payload": 1},{"Notification": "PAGE_DECREMENT", "payload": 1}]
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = KEY_MENU
-	config = {}
+	config = []
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = KEY_MUTE
-	config = {}
+	config = []
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = tvav
-	config = {}
+	config = []
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = KEY_CHANNELDOWN
-	config = {}
+	config = []
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = KEY_CHANNELUP
-	config = {}
+	config = []
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = KEY_VOLUMEDOWN
-	config = {"Notification": "PAGE_DECREMENT", "payload": 1}
+	config = [{"Notification": "PAGE_DECREMENT", "payload": 1}]
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = KEY_VOLUMEUP
-	config = {"Notification": "PAGE_INCREMENT", "payload": 1}
+	config = [{"Notification": "PAGE_INCREMENT", "payload": 1}]
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = KEY_F
-	config = {}
+	config = 
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = KEY_N
-	config = {}
+	config = []
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = timer
-	config = {}
+	config = []
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = KEY_1
-	config = {"Notification": "PAGE_CHANGED", "payload": 0}
+	config = [{"Notification": "PAGE_CHANGED", "payload": 0}]
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = KEY_2
-	config = {"Notification": "PAGE_CHANGED", "payload": 1}
+	config = [{"Notification": "PAGE_CHANGED", "payload": 1}]
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = KEY_3
-	config = {"Notification": "PAGE_CHANGED", "payload": 2}
+	config = [{"Notification": "PAGE_CHANGED", "payload": 2}]
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = KEY_4
-	config = {"Notification": "PAGE_CHANGED", "payload": 3}
+	config = [{"Notification": "PAGE_CHANGED", "payload": 3}]
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = KEY_5
-	config = {"Notification": "PAGE_CHANGED", "payload": 4}
+	config = [{"Notification": "PAGE_CHANGED", "payload": 4}]
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = KEY_6
-	config = {}
+	config = []
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = KEY_7
-	config = {}
+	config = []
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = KEY_8
-	config = {}
+	config = []
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = KEY_9
-	config = {}
+	config = []
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = KEY_C
-	config = {}
+	config = []
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = KEY_0
-	config = {}
+	config = []
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = KEY_102ND
-	config = {}
+	config = []
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = KEY_RED
-	config = {}
+	config = []
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = KEY_GREEN
-	config = {}
+	config = []
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = KEY_YELLOW
-	config = {}
+	config = []
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = KEY_BLUE
-	config = {}
+	config = []
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = tvtext
-	config = {}
+	config = []
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = index
-	config = {}
+	config = []
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = hold
-	config = {}
+	config = []
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = timetext
-	config = {}
+	config = []
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = reveal
-	config = {}
+	config = []
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = ftb
-	config = {}
+	config = []
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = vcrpower
-	config = {}
+	config = []
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = KEY_PLAY
-	config = {"Notification": "SHOW_COCKTAILS"}
+	config = [{"Notification": "SHOW_COCKTAILS"}]
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = KEY_PLAYPAUSE
-	config = {}
+	config = []
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = KEY_REWIND
-	config = {}
+	config = []
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = KEY_STOP
-	config = {"Notification": "HIDE_COCKTAILS"}
+	config = [{"Notification": "HIDE_COCKTAILS"}]
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = KEY_FASTFORWARD
-	config = {"Notification": "NEXT_COCKTAIL"}
+	config = [{"Notification": "NEXT_COCKTAIL"}]
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = KEY_RECORD
-	config = {}
+	config = []
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = vcrprogdown
-	config = {}
+	config = []
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = vcrprogup
-	config = {}
+	config = []
     repeat = 0
 end

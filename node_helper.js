@@ -18,9 +18,7 @@ module.exports = NodeHelper.create(
 			
 			this.shell.on('message', (message) =>
 			{
-				var send = JSON.parse(message); 
-				console.log('[MMM-Lirc] Notification: ' + send.Notification + ', payload: ' + send.payload);
-				this.sendSocketNotification('Lirc_Event', send);
+				this.sendSocketNotification('Lirc_Event', JSON.parse(message));
 			});
 			
 			this.shell.on('error', (message) =>

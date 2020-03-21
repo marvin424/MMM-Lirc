@@ -10,17 +10,20 @@ Module.register('MMM-Lirc',
 	{
 		if (notification === 'Lirc_Event')
 		{
-			if (send.Notification !== undefined)
+			send.forEach((s) =>
 			{
-				if (send.payload === undefined)
+				if (s.Notification !== undefined)
 				{
-					this.sendNotification(send.Notification);
+					if (s.payload === undefined)
+					{
+						this.sendNotification(s.Notification);
+					}
+					else
+					{
+						this.sendNotification(s.Notification, s.payload);
+					}
 				}
-				else
-				{
-					this.sendNotification(send.Notification, send.payload);
-				}
-			}
+			});
 		}
 	},
 });
