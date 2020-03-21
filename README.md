@@ -15,7 +15,7 @@ To use this module, add it to the modules array in the *config/config.js* file:
   module: 'MMM-Lirc',
 },
 ```
-## Configuration
+## Configuration:
 You need a running installation of LIRC and the python lib for LIRC.\
 The main configuration file is lircrc, here you can define the notifications you want to trigger on a certain button in a JSON-Array.
 
