@@ -16,8 +16,18 @@ To use this module, add it to the modules array in the *config/config.js* file:
 },
 ```
 ## Configuration:
-You need a running installation of LIRC and the python lib for LIRC.\
-The main configuration file is lircrc, here you can define the notifications you want to trigger on a certain button in a JSON-Array.
+You need a running installation of LIRC and the python lib for LIRC, [here](http://www.netzmafia.de/skripten/hardware/RasPi/Projekt-IR-Fernsteuerung/index.html) you will find a detailed description how to setup the hard- and software. Note, this site is a bit outdated, if you use a kernel version newer than 4.19.x you need to change the dtoverlay in your */boot/config.txt* from:
+
+    dtoverlay=lirc-rpi,gpio_in_pin=23,gpio_out_pin=24
+to
+    
+    dtoverlay=gpio-ir,gpio_pin=23
+    dtoverlay=gpio-ir-tx,gpio_pin=24
+    
+See also https://www.raspberrypi.org/forums/viewtopic.php?t=235256
+
+The main configuration file is lircrc:\
+Here you can define the notifications you want to trigger on a certain button in a JSON-Array.
 
 ```javascript
 # send one notification
