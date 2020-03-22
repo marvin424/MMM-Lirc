@@ -16,19 +16,19 @@
 begin
     prog   = MMM-LIRC
     button = KEY_POWER
-	config = [{"Notification": "PAGE_DECREMENT", "payload": 1},{"Notification": "PAGE_DECREMENT", "payload": 1}]
+	config = [{"Notification": "PAGE_INCREMENT", "payload": 1},{"Notification": "PAGE_INCREMENT", "payload": 1}]
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = KEY_MENU
-	config = []
+	config = [{"Notification": "NEWS_DETAIL"}]
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = KEY_MUTE
-	config = []
+	config = [{"Notification": "SHOW_COCKTAILS"}]
     repeat = 0
 end
 begin
@@ -40,13 +40,13 @@ end
 begin
     prog   = MMM-LIRC
     button = KEY_CHANNELDOWN
-	config = []
+	config = [{"Notification": "NEWS_PREVIOUS"}]
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = KEY_CHANNELUP
-	config = []
+	config = [{"Notification": "NEWS_NEXT"}]
     repeat = 0
 end
 begin
@@ -124,7 +124,7 @@ end
 begin
     prog   = MMM-LIRC
     button = KEY_8
-	config = []
+	config = [{"Notification": "NEWS_DETAIL_SCROLLUP"}]
     repeat = 0
 end
 begin
@@ -142,7 +142,7 @@ end
 begin
     prog   = MMM-LIRC
     button = KEY_0
-	config = []
+	config = [{"Notification": "NEWS_DETAIL_SCROLLDOWN"}]
     repeat = 0
 end
 begin
@@ -220,13 +220,13 @@ end
 begin
     prog   = MMM-LIRC
     button = KEY_PLAY
-	config = [{"Notification": "SHOW_COCKTAILS"}]
+	config = []
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = KEY_PLAYPAUSE
-	config = []
+	config = [{"Notification": "NEXT_COCKTAIL"}]
     repeat = 0
 end
 begin
@@ -238,13 +238,13 @@ end
 begin
     prog   = MMM-LIRC
     button = KEY_STOP
-	config = [{"Notification": "HIDE_COCKTAILS"}]
+	config = []
     repeat = 0
 end
 begin
     prog   = MMM-LIRC
     button = KEY_FASTFORWARD
-	config = [{"Notification": "NEXT_COCKTAIL"}]
+	config = []
     repeat = 0
 end
 begin

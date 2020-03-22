@@ -3,27 +3,21 @@ Module.register('MMM-Lirc',
 	start: function()
 	{
 		Log.info('Starting module: ' + this.name);
-		this.sendSocketNotification('INIT');
+		this.sendSocketNotification('INIT', this.config);
 	},
 	
 	socketNotificationReceived: function(notification, send)
 	{
 		if (notification === 'Lirc_Event')
 		{
-			send.forEach((s) =>
+			if (send.payload === undefined)
+			{						
+				this.sendNotification(send.Notification);
+			}
+			else
 			{
-				if (s.Notification !== undefined)
-				{
-					if (s.payload === undefined)
-					{
-						this.sendNotification(s.Notification);
-					}
-					else
-					{
-						this.sendNotification(s.Notification, s.payload);
-					}
-				}
-			});
+				this.sendNotification(send.Notification, send.payload);
+			}
 		}
 	},
 });
