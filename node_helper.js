@@ -38,12 +38,12 @@ module.exports = NodeHelper.create(
 								if (toggle[i] === 0)
 								{
 									toggle[i] = 1;
-									s.Notification = config.toggle[i].on;
+									s.Notification = config.toggle[i].odd;
 								}
 								else
 								{
 									toggle[i] = 0;
-									s.Notification = config.toggle[i].off;
+									s.Notification = config.toggle[i].even;
 								}
 							}
 						}
