@@ -17,8 +17,8 @@ To use this module, add it to the modules array in the *config/config.js* file:
   {
     toggle:
     [
-        {trigger: 'NEWS_DETAIL', on: 'NEWS_DETAIL', off: 'NEWS_DETAIL_CLOSE'},
-        {trigger: 'SHOW_COCKTAILS', on: 'HIDE_COCKTAILS', off: 'SHOW_COCKTAILS'}
+        {trigger: 'NEWS_DETAIL', odd: 'NEWS_DETAIL', even: 'NEWS_DETAIL_CLOSE'},
+        {trigger: 'SHOW_COCKTAILS', odd: 'HIDE_COCKTAILS', even: 'SHOW_COCKTAILS'}
     ]
   }
 },
@@ -68,14 +68,22 @@ end
 You can use toggle in config section to send two diffrent notifications with just one key on your remote control. If two notification are just switching between two diffent states, like module visible or not, this saves keys on you remote an makes it easier to remember :)
 
 ```javascript
-[
-    {
-        trigger: 'notification from lircrc to be matched',
-        on: 'notification sent on odd keystrokes',
-        off: 'notification sent on even keystrokes'
-    },
-    {...}
-]
+config:
+{
+    toggle:
+    [
+        {
+            trigger: 'notification from lircrc to be matched',
+            odd: 'notification sent on odd keystrokes',
+            even: 'notification sent on even keystrokes'
+        },
+        {
+            trigger: 'POWER',
+            odd: 'MIRROR_OFF',
+            even: 'MIRROR_ON'
+        }
+    ]
+}
 ```
 
 Have fun.
