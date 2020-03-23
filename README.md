@@ -27,11 +27,11 @@ To use this module, add it to the modules array in the *config/config.js* file:
 ## Configuration:
 You need a running installation of LIRC and the python lib for LIRC, [here](http://www.netzmafia.de/skripten/hardware/RasPi/Projekt-IR-Fernsteuerung/index.html) you will find a detailed description how to setup the hard- and software. Note, this site is a bit outdated, if you use a kernel version newer than 4.19.x you need to change the dtoverlay in your */boot/config.txt* from:
 
-    dtoverlay=lirc-rpi,gpio_in_pin=23,gpio_out_pin=24
+    dtoverlay=lirc-rpi,gpio_in_pin=XX,gpio_out_pin=YY
 to
     
-    dtoverlay=gpio-ir,gpio_pin=23
-    dtoverlay=gpio-ir-tx,gpio_pin=24
+    dtoverlay=gpio-ir,gpio_pin=XX
+    dtoverlay=gpio-ir-tx,gpio_pin=YY
     
 See also https://www.raspberrypi.org/forums/viewtopic.php?t=235256
 
@@ -65,7 +65,7 @@ end
 ```
 
 ## Option 'toggle'
-You can use toggle in config section to send two diffrent notifications with just one key on your remote control. If two notification are just switching between two diffent states, like module visible or not, this saves keys on you remote an makes it easier to remember :)
+You can use toggle in config section to send two diffrent notifications with just one key on your remote control. If two notifications are just switching between two diffent states, like module visible or not, this saves keys on your remote and makes it easier to remember :)
 
 ```javascript
 config:
