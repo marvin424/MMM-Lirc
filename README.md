@@ -65,7 +65,7 @@ end
 ```
 
 ## Option 'toggle'
-You can use toggle in config section to send two diffrent notifications with just one key on your remote control. If two notifications are just switching between two diffent states, like module visible or not, this saves keys on your remote and makes it easier to remember :)
+You can use toggle in config section to send two diffrent notifications with just one key on your remote control.
 
 ```javascript
 config:
